@@ -146,7 +146,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #000000;
+  color: #ffffff;
   background-color: #333333;
 }
 a {
@@ -823,9 +823,8 @@ a.badge:hover {
 }
 table {
   max-width: 100%;
-  background-color: #555555;
-  border-collapse: collapse;
-  border-spacing: 0;
+  background-color: transparent;
+  color: #000000;
 }
 .table {
   width: 100%;
@@ -833,14 +832,14 @@ table {
 }
 .table th,
 .table td {
-  padding: 8px;
+  padding: 15px;
   line-height: 20px;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid #ba4242;
+  text-align: center;
+  vertical-align: middle;
 }
 .table th {
   font-weight: bold;
+  color: #BA4242;
 }
 .table thead th {
   vertical-align: bottom;
@@ -931,11 +930,12 @@ table {
 }
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #cbcbcb;
 }
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-  background-color: #f5f5f5;
+  color:#BA4242;
+  background-color: #d7d7d7;
 }
 table [class*=span],
 .row-fluid table [class*=span] {
@@ -4163,17 +4163,17 @@ a.thumbnail:hover {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .hero-unit {
-  padding: 60px;
+  padding: 30px;
   margin-bottom: 30px;
-  background-color: #DBCE92;
+ /* background-color: #DBCE92;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  border:5px solid #BA4242;
+  border:5px solid #BA4242;*/
 }
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1;
   color: #BA4242;
   letter-spacing: -1px;
