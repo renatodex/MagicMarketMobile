@@ -66,9 +66,9 @@
       <div class="row">
         <div class="span12">
 	 	<div class="cont-unit">
-	 	   <div class="id_loja">
-    		     <a target="_blank" href="http://www.ugcardshop.com.br/"><img width="166" height="55" src="img/logo-ugcardshop.png"></a>
-    	           </div>      
+	 	   <fieldset class="id_loja">
+    		     <label><a target="_blank" href="http://www.ugcardshop.com.br/"><img width="166" height="55" src="img/logo-ugcardshop.png"></a></label>
+    	             
 	    	<table class="table table-striped" cellspacing="0" cellpadding="0">
     	     <thead>
     	     <tr>
@@ -90,7 +90,7 @@
 	     	    <td style="border-left:1px solid #bcbcbc;"><img width="19" height="18" src="img/ico_estoque.gif">:18</td>
                 </tr>
              </tbody>
-            </table>
+            </table></fieldset> 
           </div>
 	</div>
     </div>
